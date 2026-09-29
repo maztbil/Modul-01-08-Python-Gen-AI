@@ -1,0 +1,11 @@
+Embeddings are numerical representations of data (like words, sentences, images, or other objects) as vectors in a high-dimensional space. They capture semantic meaning and relationships by positioning similar items closer together.
+
+The key idea: instead of treating words or items as discrete symbols, embeddings map them to continuous vectors where mathematical operations reveal meaningful patterns. For example, in word embeddings, "king" - "man" + "woman" ≈ "queen" because the vectors encode gender and royalty relationships.
+
+Common applications:
+- Natural language processing: words (Word2Vec, GloVe) or sentences (BERT, GPT embeddings) become vectors
+- Recommendation systems: users and products map to shared spaces to find matches
+- Search: convert queries and documents to vectors, then find nearest neighbors
+- Computer vision: images transform into feature vectors for similarity comparison
+
+Embeddings are typically learned through neural networks trained on large datasets. The network discovers useful representations by optimizing for a task like predicting context, classifying images, or reconstructing input. The resulting vectors compress information while preserving the relationships that matter for downstream tasks.
